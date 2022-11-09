@@ -3,7 +3,7 @@ package invalidnumbers;
 public class ExpDemo {
 	public static void main (String as[])
 	{
-	int n, cnt=0, sum=0;
+	int n, count=0, sum=0;
 	for(int i=0;i<as.length;i++)
 	{
 	try
@@ -14,12 +14,12 @@ public class ExpDemo {
 	catch (NumberFormatException e)
 	{
 	System.out.println("invalid integer:");
-	cnt++;
+	count++;
 	}
 	}
 	System.out.println("Sum of only valid integers is= "+sum) ;
 
-	System.out.println("Invalid integers are: "+cnt) ;
+	System.out.println("Invalid integers are: "+count) ;
 	}
 
 
